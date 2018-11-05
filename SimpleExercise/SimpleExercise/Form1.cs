@@ -16,5 +16,11 @@ namespace SimpleExercise
         {
             InitializeComponent();
         }
+
+        private void btnEnter_Click(object sender, EventArgs e)
+        {
+            //Message in textbox will populate in message box.
+            MessageBox.Show(txtMessage.Text);
+        }
     }
 }
