@@ -21,6 +21,7 @@ namespace SimpleExercise
         {
             //Message in textbox will populate in message box.
             MessageBox.Show(txtMessage.Text,Convert.ToString(MessageBoxButtons.OK));
+            txtMessage.Text = "";
         }
 
         private void btnExit_Click(object sender, EventArgs e)
