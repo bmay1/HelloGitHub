@@ -20,7 +20,13 @@ namespace SimpleExercise
         private void btnEnter_Click(object sender, EventArgs e)
         {
             //Message in textbox will populate in message box.
-            MessageBox.Show(txtMessage.Text);
+            MessageBox.Show(txtMessage.Text,Convert.ToString(MessageBoxButtons.OK));
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            //Close the program
+            this.Close();
         }
     }
 }
